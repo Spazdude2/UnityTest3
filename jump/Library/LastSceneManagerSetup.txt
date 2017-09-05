@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CanNowJump.unity
+- path: Assets/Surroundings/Sci-fi_platforms/Sci-fi_platforms_demo.unity
   isLoaded: 1
   isActive: 1

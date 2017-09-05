@@ -9,6 +9,7 @@ public class BallPlayerMovement : MonoBehaviour
 	public float speed;
 	public float jumpSpeed;
 
+	Collision col;
 
 	// Use this for initialization
 	void Start () 
@@ -27,9 +28,14 @@ public class BallPlayerMovement : MonoBehaviour
 
 		GetComponent<Rigidbody>().AddForce (Movement * speed * Time.deltaTime);
 
-		if (Input.GetButtonDown ("Jump")) 
+		 
+
+		if (Input.GetButtonDown ("Jump"))
 		{
 			GetComponent<Rigidbody> ().AddForce (jump * jumpSpeed * Time.deltaTime);
 		}
+
 	}
+
+
 }
