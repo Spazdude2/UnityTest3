@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BallPlayer\BallPlayerMovement.cs" />
+     <Compile Include="Assets\camMouseLook.cs" />
      <None Include="Assets\Surroundings\Sci-fi_platforms\Sci-fi_platforms.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
